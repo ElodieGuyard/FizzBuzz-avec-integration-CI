@@ -4,7 +4,7 @@ Déployer une CI avec GitHub Actions sur un projet Node.js
 
 ## Créer un nouveau projet GitHub contenant un petit code JavaScript (Node.js), le **fizzbuzz.js** !
     
-    
+
     ```jsx
     const fizzbuzz = (number) => {
       if (number % 3 == 0) {
@@ -18,7 +18,7 @@ Déployer une CI avec GitHub Actions sur un projet Node.js
     
     module.exports = { fizzbuzz }
     ```
-    
+
     On peut considérer ce dernier comme votre projet. L’objectif est de tester le **fizzbuzz** afin de confirmer qu’il correspond bien à notre spécification :
     
     - si le nombre est divisible par 3 : on écrit **Fizz**
